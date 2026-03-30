@@ -14,8 +14,14 @@ $resultado = mysqli_query($conexao, $sql);
         <form action="salvar.php" method="post">
             <label>Nome:</label>
             <input type ="text" name="nome" required>
-            <label>Preço:</label>
+            <label>Preço:</label>4
             <input type ="number" name="preco" required>
+	    <label>categoria</label>
+            <input type = "text" name = "categoria" required>
+            <button type = "submit">Salvar</button>
+            <label>Quantidade</label>
+            <input type = "number" name = "quantidade" required>
+            <button type = "submit">Salvar</button>
         </form>
     </body>
 </html>
